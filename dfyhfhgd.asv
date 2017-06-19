@@ -1,0 +1,4 @@
+TIME = readtable('local3.csv');
+Time = TIME(:,1)
+time = table2cell(Time)
+datetime 
